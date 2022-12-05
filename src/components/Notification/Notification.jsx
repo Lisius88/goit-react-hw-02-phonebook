@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 
-export const Notification = ({ title }) => {
-  <p>{title}</p>;
-};
+export const Notification = ({ title }) => <p>{title}</p>;
 
-Notification.propsTypes = {
+Notification.propTypes = {
   title: PropTypes.string.isRequired,
 };

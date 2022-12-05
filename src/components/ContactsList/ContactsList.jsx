@@ -1,5 +1,5 @@
-import { Notification } from 'components/Notification/Notification';
 import { ContactsItem } from 'components/ContactsItem/ContactsItem';
+import { Notification } from 'components/Notification/Notification';
 import PropTypes from 'prop-types';
 import { List } from './ContactsList.styled';
 
